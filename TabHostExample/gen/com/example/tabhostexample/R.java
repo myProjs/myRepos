@@ -24,17 +24,21 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080004;
+        public static final int action_settings=0x7f080007;
+        public static final int drawer_layout=0x7f080001;
+        public static final int frame_layout=0x7f080002;
+        public static final int menu_list=0x7f080003;
         public static final int page_viewer=0x7f080000;
-        public static final int tab_one=0x7f080001;
-        public static final int tab_three=0x7f080002;
-        public static final int tab_two=0x7f080003;
+        public static final int tab_one=0x7f080004;
+        public static final int tab_three=0x7f080005;
+        public static final int tab_two=0x7f080006;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int tabone_fragment=0x7f030001;
-        public static final int tabthree_fragment=0x7f030002;
-        public static final int tabtwo_fragment=0x7f030003;
+        public static final int swipe_menu=0x7f030001;
+        public static final int tabone_fragment=0x7f030002;
+        public static final int tabthree_fragment=0x7f030003;
+        public static final int tabtwo_fragment=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -59,12 +63,6 @@ public final class R {
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
     
  API 11 theme customizations can go here. 
-
-        Base application theme for API 14+. This theme completely replaces
-        AppBaseTheme from BOTH res/values/styles.xml and
-        res/values-v11/styles.xml on API 14+ devices.
-    
- API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f060000;
         /**  Application theme. 
