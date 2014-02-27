@@ -31,6 +31,7 @@ public class Home extends FragmentActivity implements ActionBar.TabListener  {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+	
 		
 		mViewPager = (ViewPager) findViewById(R.id.page_viewer);
 		mSwipeAdapter = new TabSwipeAdapter(getSupportFragmentManager());
@@ -38,6 +39,7 @@ public class Home extends FragmentActivity implements ActionBar.TabListener  {
 		
 		mActionBar = getActionBar();
 		mActionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+		
 		
 		for(String items : tabItems){
 			mActionBar.addTab(mActionBar.newTab().setText(items).setTabListener(this));
@@ -49,8 +51,7 @@ public class Home extends FragmentActivity implements ActionBar.TabListener  {
 			@Override
 			public void onPageSelected(int position) {
 			
-				mActionBar.setSelectedNavigationItem(position);
-				
+				mActionBar.setSelectedNavigationItem(position);	
 			}
 			
 			@Override
